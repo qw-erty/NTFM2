@@ -11,7 +11,7 @@ const LoginPage = () => {
             // can be one of 'email' or 'phone_number_sms'
             identifierType: 'email',
             // Add the API key copied from 5th step
-            apiKey: '56e01932-b379-4953-8c4a-80c9ad56db91',
+            apiKey: 'f7ad16ea-3581-4ab1-840c-75eb41b4f409',
             // Add a callback here to handle the payload sent by sdk
             onSuccess: payload => {
                 setEmail(payload.identifier);
